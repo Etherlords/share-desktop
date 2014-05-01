@@ -1,4 +1,4 @@
-additionalCompilerOptions << ['+configname=air']
+additionalCompilerOptions << '+configname=air'
 
 dependencies {
     merged project(':away3d-core')
