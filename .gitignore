@@ -1,3 +1,11 @@
+#############
+## idea
+#############
+*.ipr
+.idea
+bin-debug
+*.iml
+
 # Build and Release Folders
 bin/
 bin-debug/
