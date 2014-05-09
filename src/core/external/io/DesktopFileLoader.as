@@ -16,9 +16,9 @@ package  core.external.io
 	public class DesktopFileLoader extends FileLoader
 	{
 		public var async:Boolean = false;
-		
-		private var stream:FileStream = new FileStream();
-		
+
+        protected var stream:FileStream = new FileStream();
+
 		public function DesktopFileLoader(isAsync:Boolean = false) 
 		{
 			async = isAsync;
